@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoxTech</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Orbitron', sans-serif;
+            background: #111;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            width: 40px;
+            margin-right: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px 0;
+        }
+        .hero-text {
+            max-width: 50%;
+            text-align: left;
+        }
+        .hero h1 {
+            font-size: 50px;
+            color: white;
+        }
+        .hero span {
+            color: gray;
+        }
+        .btn-container {
+            margin-top: 20px;
+        }
+        .btn {
+            padding: 10px 20px;
+            margin-right: 10px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .blue-btn {
+            background: cyan;
+            color: black;
+        }
+        .black-btn {
+            background: black;
+            color: white;
+            border: 1px solid white;
+        }
+        .hero img {
+            width: 350px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="headphones-logo.png" alt="VoxTech"> VoxTech
+            </div>
+            <nav>
+                <a href="#">HOME</a>
+                <a href="#">BRAND</a>
+                <a href="#">ABOUT</a>
+                <a href="#">CONTACT</a>
+                <a href="#" style="color: cyan;">LOGIN</a>
+            </nav>
+        </header>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Crystal <span>Clear</span> Audio</h1>
+                <div class="btn-container">
+                    <button class="btn blue-btn">Add to cart</button>
+                    <button class="btn black-btn">View more</button>
+                </div>
+            </div>
+            <img src="headphones.png" alt="Headphones">
+        </section>
+    </div>
+</body>
+</html>
